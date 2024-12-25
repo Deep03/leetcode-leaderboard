@@ -1,0 +1,61 @@
+{
+  "userProfileUserQuestionProgressV2": {
+    "numAcceptedQuestions": [
+      {
+        "count": 12,
+        "difficulty": "EASY"
+      },
+      {
+        "count": 1,
+        "difficulty": "MEDIUM"
+      },
+      {
+        "count": 0,
+        "difficulty": "HARD"
+      }
+    ],
+    "numFailedQuestions": [
+      {
+        "count": 2,
+        "difficulty": "EASY"
+      },
+      {
+        "count": 2,
+        "difficulty": "MEDIUM"
+      },
+      {
+        "count": 0,
+        "difficulty": "HARD"
+      }
+    ],
+    "numUntouchedQuestions": [
+      {
+        "count": 831,
+        "difficulty": "EASY"
+      },
+      {
+        "count": 1769,
+        "difficulty": "MEDIUM"
+      },
+      {
+        "count": 782,
+        "difficulty": "HARD"
+      }
+    ],
+    "userSessionBeatsPercentage": [
+      {
+        "difficulty": "EASY",
+        "percentage": 36.15
+      },
+      {
+        "difficulty": "MEDIUM",
+        "percentage": null
+      },
+      {
+        "difficulty": "HARD",
+        "percentage": null
+      }
+    ],
+    "totalQuestionBeatsPercentage": 11.9
+  }
+}

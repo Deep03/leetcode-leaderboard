@@ -1,0 +1,9 @@
+{
+  "userProfileUserQuestionProgressV2": {
+    "numAcceptedQuestions": [],
+    "numFailedQuestions": [],
+    "numUntouchedQuestions": [],
+    "userSessionBeatsPercentage": [],
+    "totalQuestionBeatsPercentage": null
+  }
+}
