@@ -1,9 +1,61 @@
 {
   "userProfileUserQuestionProgressV2": {
-    "numAcceptedQuestions": [],
-    "numFailedQuestions": [],
-    "numUntouchedQuestions": [],
-    "userSessionBeatsPercentage": [],
-    "totalQuestionBeatsPercentage": null
+    "numAcceptedQuestions": [
+      {
+        "count": 9,
+        "difficulty": "EASY"
+      },
+      {
+        "count": 3,
+        "difficulty": "MEDIUM"
+      },
+      {
+        "count": 0,
+        "difficulty": "HARD"
+      }
+    ],
+    "numFailedQuestions": [
+      {
+        "count": 4,
+        "difficulty": "EASY"
+      },
+      {
+        "count": 5,
+        "difficulty": "MEDIUM"
+      },
+      {
+        "count": 1,
+        "difficulty": "HARD"
+      }
+    ],
+    "numUntouchedQuestions": [
+      {
+        "count": 832,
+        "difficulty": "EASY"
+      },
+      {
+        "count": 1764,
+        "difficulty": "MEDIUM"
+      },
+      {
+        "count": 781,
+        "difficulty": "HARD"
+      }
+    ],
+    "userSessionBeatsPercentage": [
+      {
+        "difficulty": "EASY",
+        "percentage": 26.43
+      },
+      {
+        "difficulty": "MEDIUM",
+        "percentage": 9.72
+      },
+      {
+        "difficulty": "HARD",
+        "percentage": null
+      }
+    ],
+    "totalQuestionBeatsPercentage": 8.3
   }
 }

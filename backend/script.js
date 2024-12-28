@@ -1,8 +1,8 @@
 const leetcode_url = "https://leetcode.com/graphql";
 const fs = require("fs");
-const parsed_json = JSON.parse(fs.readFileSync("user_query/upendrapant-query.json"));
+const parsed_json = JSON.parse(fs.readFileSync("user_query/aarjeet1j-query.json"));
 
-async function fetchData() {
+async function fetch_data() {
     try {
         const response = await fetch(leetcode_url, {
             method: "POST",
@@ -15,7 +15,7 @@ async function fetchData() {
         if (!response.ok) throw new Error('HTTP error! Status: ' + response.status);
 
         const data = await response.json();
-        if (data.data) fs.writeFile('user_data/upendrapant-data.json', JSON.stringify(data.data, null, 2), (err) => {
+        if (data.data) fs.writeFile('user_data/aarjeet1j-data.json', JSON.stringify(data.data, null, 2), (err) => {
             if (err) console.log("Error writing to file:", err);
             else console.log("File has been written.");
         });
@@ -25,4 +25,9 @@ async function fetchData() {
     }
 }
 
-fetchData();
+function rank_data() {
+    
+}
+
+fetch_data();
+rank_data();
