@@ -1,6 +1,8 @@
 'use client';
 
 import { LeaderboardCard } from '@/components/leaderboard/card';
+import get_user_score from '@/backend/script.js';
+
 
 function calculate_rank() {
   

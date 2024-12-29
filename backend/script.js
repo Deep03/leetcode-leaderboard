@@ -26,7 +26,7 @@ async function fetch_data() {
     }
 }
 
-export function user_score(user_name) {
+export function get_user_score(user_name) {
     let file_name  = 'user_data/'+ user_name + '_data.json'
     const data = JSON.parse(fs.readFileSync(file_name))
     try {
@@ -46,5 +46,3 @@ export function user_score(user_name) {
 }
 
 // fetch_data();
-let name = 'panditapollo'
-user_score(name);
