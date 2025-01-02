@@ -1,8 +1,0 @@
-{
-    "query": "query userProfileUserQuestionProgressV2($userSlug: String!) { userProfileUserQuestionProgressV2(userSlug: $userSlug) { numAcceptedQuestions { count difficulty } numFailedQuestions { count difficulty } numUntouchedQuestions { count difficulty } userSessionBeatsPercentage { difficulty percentage } totalQuestionBeatsPercentage } }",
-    "variables": {
-      "username": "arjeetjoshi175",
-      "userSlug": "arjeetjoshi175"
-    }
-  }
-  
