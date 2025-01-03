@@ -42,7 +42,7 @@ npm run dev
 
 ## 🔧 Configuration
 
-To track different LeetCode users, modify the `usernames` array in `src/App.jsx`:
+To track different LeetCode users, modify the `usernames` array in `src/pages.js`:
 
 ```javascript
 const usernames = ["user1", "user2", "user3"];
