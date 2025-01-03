@@ -9,8 +9,6 @@ export default async function handler(req, res) {
             numAcceptedQuestions { count difficulty }
             numFailedQuestions { count difficulty }
             numUntouchedQuestions { count difficulty }
-            userSessionBeatsPercentage { difficulty percentage }
-            totalQuestionBeatsPercentage
           }
         }
       `,
