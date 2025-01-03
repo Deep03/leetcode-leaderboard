@@ -1,33 +1,30 @@
-# LeetCode Rankings Dashboard 🏆
+# Leetcode Rankings Dashboard 🏆
 
-A sleek, modern dashboard to track and compare LeetCode progress across multiple users. Built with React and styled with Tailwind CSS, featuring a dark theme and intuitive visualizations.
+A sleek, modern dashboard to track and compare Leetcode progress across multiple users. Built with React and styled with Tailwind CSS, featuring a dark theme and intuitive visualizations.
 
 ## ✨ Features
 
-- 📊 Real-time LeetCode statistics tracking
+- 📊 Real-time Leetcode statistics tracking
 - 🎯 Problem difficulty breakdown (Easy, Medium, Hard)
 - 🏅 Dynamic ranking system with visual indicators
-- 🌙 Dark theme optimized for reduced eye strain
-- 📱 Responsive design for all devices
-- ⚡ Fast and efficient data fetching
 
 ## 🚀 Tech Stack
 
 - React/Next
 - Tailwind CSS
 - Lucide React (for icons)
-- LeetCode API integration
+- Leetcode API integration
 
 ## 🛠️ Installation
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/Deep03/leetcode-leaderboard
+git clone https://github.com/Deep03/Leetcode-leaderboard
 ```
 
 2. Navigate to the project directory:
 ```bash
-cd leetcode-leaderboard
+cd Leetcode-leaderboard
 ```
 
 3. Install dependencies:
@@ -42,7 +39,7 @@ npm run dev
 
 ## 🔧 Configuration
 
-To track different LeetCode users, modify the `usernames` array in `src/pages.js`:
+To track different Leetcode users, modify the `usernames` array in `src/pages.js`:
 
 ```javascript
 const usernames = ["user1", "user2", "user3"];
@@ -62,6 +59,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 🙏 Acknowledgments
 
-- [LeetCode](https://leetcode.com/) for providing the API
+- [Leetcode](https://leetcode.com/) for providing the API
 - [Lucide React](https://lucide.dev/) for the beautiful icons
 - [Tailwind CSS](https://tailwindcss.com/) for the styling utilities
