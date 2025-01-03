@@ -1,0 +1,79 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f8fa;
+    color: #333;
+  }
+  
+  .container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin-top: 50px;
+  }
+  
+  .title {
+    text-align: center;
+    font-size: 2rem;
+    color: #4b6cb7;
+    margin-bottom: 1.5rem;
+  }
+  
+  .user-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .user-table th, .user-table td {
+    padding: 12px 20px;
+    text-align: center;
+  }
+  
+  .user-table th {
+    background-color: #4b6cb7;
+    color: #ffffff;
+    font-size: 1.1rem;
+  }
+  
+  .user-table td {
+    background-color: #f9f9f9;
+    font-size: 1rem;
+  }
+  
+  .user-table tr:nth-child(even) {
+    background-color: #f1f1f1;
+  }
+  
+  .user-table tr:hover {
+    background-color: #e1e1e1;
+  }
+  
+  .user-table td {
+    border-top: 1px solid #ddd;
+  }
+  
+  @media (max-width: 768px) {
+    .container {
+      width: 95%;
+      padding: 1.5rem;
+    }
+  
+    .title {
+      font-size: 1.6rem;
+    }
+  
+    .user-table th, .user-table td {
+      font-size: 0.9rem;
+      padding: 8px 10px;
+    }
+  }
+  
